@@ -14,10 +14,10 @@ function App() {
     <div className='container'>
     <Header title="Adopt a Doggo"/>
       <div className='cards'>
-        <MyCard cardTitle="Barto" cardDescription="He is a friendly and young dogs who loves going for a walk." imageUrl={'public/dog1.jpg'} buttonColor="primary" buttonText={"Retriever"}></MyCard>
-        <MyCard cardTitle="Chocolo" cardDescription="He loves being pet and playing in the park" imageUrl={'public/dog2.jpg'} buttonColor="danger" buttonText={"Mixed"}></MyCard>
-        <MyCard cardTitle="Micky" cardDescription="She loves food and have a quiet time." imageUrl={'public/dog3.jpg'} buttonColor="success" buttonText={"Spaniel"}></MyCard>
-        <MyCard cardTitle="Daisy" cardDescription="She is a protective dog nice to kids." imageUrl={'public/dog4.jpg'} buttonColor="warning" buttonText={"Bull Dog"}></MyCard>
+        <MyCard cardTitle="Barto" cardDescription="He is a friendly and young dogs who loves going for a walk." imageUrl={'/dog1.jpg'} buttonColor="primary" buttonText={"Retriever"}></MyCard>
+        <MyCard cardTitle="Chocolo" cardDescription="He loves being pet and playing in the park" imageUrl={'/dog2.jpg'} buttonColor="danger" buttonText={"Mixed"}></MyCard>
+        <MyCard cardTitle="Micky" cardDescription="She loves food and have a quiet time." imageUrl={'/dog3.jpg'} buttonColor="success" buttonText={"Spaniel"}></MyCard>
+        <MyCard cardTitle="Daisy" cardDescription="She is a protective dog nice to kids." imageUrl={'/dog4.jpg'} buttonColor="warning" buttonText={"Bull Dog"}></MyCard>
       </div>
     <Footer text={"Explore our gallery to find the perfect buddy."}></Footer>
     </div>
